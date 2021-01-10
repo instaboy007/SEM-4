@@ -1,0 +1,5 @@
+s=str(input("ENTER THE STRING :"))
+i=str(input("ENTER THE INDEX NUMEBER & CHARACTER :"))
+x=i.split(" ")
+s=s.replace(s[int(x[0])],x[1])
+print("MODIFIED STRING:"+ s)
