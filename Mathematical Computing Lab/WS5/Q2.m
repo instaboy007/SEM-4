@@ -1,0 +1,10 @@
+syms x y
+f=cos(2*x)-(x^2*exp(5*y))+(3*y^2)
+ans1=diff(f,x)
+ans2=diff(f,y)
+ans3=diff(f,x,2)
+ans4=diff(f,y,2)
+ans5=diff(ans2,x)
+ans6=diff(ans1,y)
+ans7=diff(f,y,4)
+ans8=diff(diff(ans1,y),x)
